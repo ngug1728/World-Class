@@ -1,4 +1,4 @@
-const root = React.reactDOM(document.getElemenById('root'));
-function Library() {
+const root = ReactDOM.createRoot(document.getElemenById('root'));
+export function Library(left,right) {
   console.log("")
 }
